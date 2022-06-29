@@ -4,5 +4,8 @@ kind: Node
 metadata:
   name: du1-fec3
   labels:
+    node-role.kubernetes.io/worker: ""
+    node-role.kubernetes.io/worker-cnf: ""
+    kubernetes.io/hostname: "du1-fec3"
     ran.openshift.io/ptp: ""
     ran.openshift.io/sriov: ""
